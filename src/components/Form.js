@@ -25,7 +25,6 @@ const LoginForm = () => {
             </div>
             <h6>CREATE AN ACCOUNT</h6>
         <Form
-    style={{background:"#fff"}}
       name="normal_login"
       className="login-form"
       initialValues={{
