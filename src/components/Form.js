@@ -39,11 +39,11 @@ const LoginForm = () => {
       </Steps>
      
       <Form.Item
-        name="username"
+        name="password"
         rules={[
           {
             required: true,
-            message: 'Please input your Username!',
+            message: 'Please input your Password!',
           },
         ]}
       >

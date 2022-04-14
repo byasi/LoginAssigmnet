@@ -170,10 +170,7 @@ b{
             margin-top: -75%;
             margin-left: 15%;
            }
-           .col-1{
-               width: -200px;
-           }
-    
+      
     }
     @media only screen and (max-width: 767px) {
         .App{
@@ -188,6 +185,17 @@ b{
                width: -200px;
            }
     
+    }
+    @media (max-width: 1199px){
+        .App{
+            margin-top: 10%;
+            margin-left: 10%;
+           }
+           .col-md-6{
+            margin-top: -50%;
+            margin-left: 15%;
+           }
+        
     }
 
     @media (max-width: 660px){
