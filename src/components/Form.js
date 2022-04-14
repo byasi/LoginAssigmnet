@@ -1,6 +1,5 @@
 import { Form, Input, Button, Checkbox,Steps,Typography} from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons'
-import { useState } from 'react';
 
 const { Text } = Typography;
 const { Step } = Steps;
@@ -39,11 +38,11 @@ const LoginForm = () => {
       </Steps>
      
       <Form.Item
-        name="username"
+        name="password"
         rules={[
           {
             required: true,
-            message: 'Please input your Username!',
+            message: 'Please input your Password!',
           },
         ]}
       >
