@@ -1,0 +1,226 @@
+.App {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 400px;
+}
+
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+
+label {
+  float: left;
+}
+
+.login-form-button {
+  width: 100%;
+  padding: 2px;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  background-color: #ffc857;
+  border-color: #ffc857;
+  color: #2e4969;
+}
+
+.login-form-button:hover {
+  background-color: #ffc857;
+  border-color: #ffc857;
+  color: #2e4969;
+  text-align: center;
+}
+
+.login-form-button .icon {
+  float: right;
+  padding: 2px;
+}
+
+.steps {
+  margin-bottom: 5%;
+}
+
+.step content {
+  color: #2e4969;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
+.bg-img {
+  background: url("../img/img.png") no-repeat;
+  margin-right: 6%;
+  position: relative;
+}
+
+.col-md-6 {
+  margin-top: -46%;
+  height: 10px;
+  position: absolute;
+  margin-left: 15%;
+}
+
+.login-box {
+  min-width: 400px;
+  background-color: #fff;
+  max-width: 400px;
+  width: 100%;
+  padding: 40px 20px;
+  margin: 5px auto;
+  -webkit-box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 28px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.login-box .login-title {
+  padding: 0px 0 10px;
+  margin-bottom: 5px;
+}
+
+.login-box .login-title h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2e4969;
+}
+
+h6 {
+  float: left;
+  color: #2e4969;
+}
+
+b {
+  color: #2e4969;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .App {
+    margin-top: 10%;
+    width: 100%;
+  }
+  .col-md-6 {
+    margin-top: -59%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .App {
+    margin-top: 10%;
+    width: 100%;
+  }
+  .col-md-6 {
+    margin-top: -76%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .App {
+    margin-top: 10%;
+    width: 100%;
+  }
+  .col-md-6 {
+    margin-top: -76%;
+  }
+}
+
+@media only screen and (max-width: 1270px) {
+  .App {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .col-md-6 {
+    margin-top: -46%;
+    margin-left: 15%;
+  }
+  .col-1 {
+    width: -200px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .App {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .col-md-6 {
+    margin-top: -59%;
+    margin-left: 15%;
+  }
+  .col-1 {
+    width: -200px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .App {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .col-md-6 {
+    margin-top: -75%;
+    margin-left: 15%;
+  }
+  .col-1 {
+    width: -200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .App {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  .col-md-6 {
+    margin-top: -75%;
+    margin-left: 15%;
+  }
+  .col-1 {
+    width: -200px;
+  }
+}
+
+@media (max-width: 660px) {
+  .App {
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 100%;
+  }
+  .col-md-6 {
+    margin-top: -88%;
+    margin-left: 10%;
+  }
+  .col-1 {
+    width: -200px;
+  }
+}
+
+@media (max-width: 599px) {
+  .App {
+    margin-top: 10%;
+    margin-left: 2%;
+    width: 100%;
+  }
+  .col-md-6 {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  .col {
+    display: none;
+  }
+  .steps {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=App.css.map */
