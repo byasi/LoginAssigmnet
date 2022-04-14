@@ -20,18 +20,22 @@ $greyColor: #8a8a8a;
   }
   .label{
       float: left;
+      color:$blueColor
   }
 
   .check-box{
       float: left;
+      color: $blueColor;
   }
   .login-form-button {
     width: 100%;
-    padding: 2px;
-    align-items: left;
+    padding: 8px;
+    align-items: center;
+    text-align: center;
     background-color: $yellowColor;
     border-color: $yellowColor;
     color: $blueColor;
+    border-radius: 5px;
   }
   .login-form-button:hover{
     background-color: $yellowColor;
@@ -53,6 +57,7 @@ $greyColor: #8a8a8a;
   }
   .steps-action {
     margin-top: 24px;
+    color: $blueColor;
   }
 
   .bg-img{
