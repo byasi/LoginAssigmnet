@@ -15,7 +15,11 @@
   float: left;
 }
 
-label {
+.label {
+  float: left;
+}
+
+.check-box {
   float: left;
 }
 
