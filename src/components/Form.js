@@ -1,6 +1,8 @@
-import { Form, Input, Button, Checkbox,Steps } from 'antd';
+import { Form, Input, Button, Checkbox,Steps,Typography} from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons'
 import { useState } from 'react';
+
+const { Text } = Typography;
 const { Step } = Steps;
 
 const steps = [
@@ -46,7 +48,7 @@ const LoginForm = () => {
           },
         ]}
       >
-          <label>Password</label>
+          <Text className='label'>Password</Text>
         <Input  className="form-control form-control-lg"/>
       </Form.Item>
       <Form.Item
@@ -59,7 +61,7 @@ const LoginForm = () => {
           },
         ]}
       >
-          <label>Confirm Password</label>
+          <Text className='label'>Confirm Password</Text>
         <Input
           type="password"
           name="password"
@@ -67,8 +69,8 @@ const LoginForm = () => {
         />
       </Form.Item>
       <Form.Item>
-        <Form.Item name="remember" valuePropName="checked">
-          <Checkbox >I agree of the terms of use and policy</Checkbox>
+        <Form.Item valuePropName="checked">
+          <Checkbox className='check-box' >I agree of the terms of use and policy</Checkbox>
         </Form.Item>
       </Form.Item>
 
