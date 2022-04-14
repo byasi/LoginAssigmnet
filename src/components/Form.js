@@ -17,7 +17,6 @@ const steps = [
 ];
 
 const LoginForm = () => {
-    const [current, setCurrent] = useState(0);
 
   return (
     <div className="col-md-6 col-lg-5">
@@ -33,9 +32,9 @@ const LoginForm = () => {
         remember: true,
       }}
     >
-        <Steps current={current} className='steps'>
+        <Steps current={1} className='steps'>
         {steps.map(item => (
-          <Step className='step' key={item.title} title={item.title} />
+          <Step key={item.title} title={item.title} />
         ))}
       </Steps>
      
@@ -70,7 +69,7 @@ const LoginForm = () => {
       </Form.Item>
       <Form.Item>
         <Form.Item valuePropName="checked">
-          <Checkbox className='check-box' >I agree of the terms of use and policy</Checkbox>
+          <Checkbox className='check-box' >I agree of the <b>terms of use</b> and <b>policy</b></Checkbox>
         </Form.Item>
       </Form.Item>
 
@@ -80,7 +79,7 @@ const LoginForm = () => {
         <ArrowRightOutlined className='icon'/> 
         </Button>
       </Form.Item>
-      <p>Don't have an account yet. <b>Signup</b></p>
+      <p>Don't have an account yet? <b>Sign Up</b></p>
     </Form>
         </div>
         </div>

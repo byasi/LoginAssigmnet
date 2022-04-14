@@ -20,10 +20,12 @@ $greyColor: #8a8a8a;
   }
   .label{
       float: left;
+      color:$blueColor
   }
 
   .check-box{
       float: left;
+      color: $blueColor;
   }
   .login-form-button {
     width: 100%;
@@ -55,6 +57,7 @@ $greyColor: #8a8a8a;
   }
   .steps-action {
     margin-top: 24px;
+    color: $blueColor;
   }
 
   .bg-img{
